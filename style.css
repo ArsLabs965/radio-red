@@ -1,0 +1,128 @@
+body{
+    background-image: url('img/bg.png');
+    color: White;
+    padding: 0;
+    margin: 0;
+    
+}
+.wall{
+    text-align: center;
+}
+
+.person{
+    text-align: center;
+}
+#logo{
+    font-family: 'Bebas Neue', cursive;
+}
+#center{
+    text-align: center;
+}
+
+#red{
+    color: red;
+}
+
+#bgr{
+    /*background-color: rgb(37, 37, 37);*/
+    background-image: url('img/bgr.png');
+    padding: 5px;
+    margin-bottom: 10px;
+    border-radius: 25px;
+    border: rgb(71, 71, 71) solid 2px;
+}
+#bgrapp{
+    padding: 5px;
+   
+    background-color: rgb(37, 37, 37);
+    
+    margin-bottom: 10px;
+    border-radius: 25px;
+}
+#in{
+    padding: 10px;
+    border: red solid 2px;
+    background-color: rgb(22, 22, 22);
+    
+    color: white;
+    border-radius: 25px;
+}
+
+#desk{
+    display: none;
+}
+#mob{
+    display: block;
+}
+#green{
+    background-color: green;
+}
+#error{
+    background-color: rgb(255, 0, 0);
+}
+#faq{
+    width: 100%;
+}
+.ad{
+    display: none;
+}
+.adm{
+    display: block;
+}
+@media screen and (min-width: 600px) {
+    .parent > div {
+  
+        float: left;
+        
+       
+       
+        
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+    .u1{
+        width: 31%;
+        height: 320px;
+        margin: 1%;
+    }
+    .u2{
+        width: 32%;
+        
+        margin: 1%;
+    }
+    .u3{
+        width: 31%;
+        height: 320px;
+        margin: 1%;
+    }
+    #desk{
+        display: block;
+    }
+    #mob{
+        display: none;
+    }
+    #bgrapp{
+        padding: 5px;
+        padding-left: 40%;
+        background-color: rgb(37, 37, 37);
+
+    border-radius: 25px;
+        
+        margin-bottom: 10px;
+    }
+    .wall{
+        width: 69%;
+        margin-left: 1%;
+    }
+
+    .person{
+        width: 30%;
+    }
+    .ad{
+        display: block;
+    }
+    .adm{
+        display: none;
+    }
+}
